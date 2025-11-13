@@ -1,4 +1,4 @@
-🐍 PYTHON LEARNING JOURNEY 🚀
+<h1>🐍 PYTHON LEARNING JOURNEY 🚀</h1>
 
 Welcome to my Python Learning Repository — a space where I’m documenting my journey of learning Python from basics to advanced, following the amazing CodeWithHarry Python Playlist
 .
