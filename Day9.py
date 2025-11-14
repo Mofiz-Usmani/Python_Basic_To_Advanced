@@ -76,3 +76,9 @@ z = "Hello, Jackal"
 print(z.replace("Jackal", "Python"))
 
 
+
+
+# split() – convert string → list
+print("hi hello hey".split())   # ["hi", "hello", "hey"])
+
+
