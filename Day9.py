@@ -2,6 +2,7 @@
 # String
 # ===============
 
+# Strings are Immutable
 
 
 name = "Jackal"
@@ -34,3 +35,20 @@ print(newName[3])
 
 for char in newName:
     print(char)
+
+
+
+
+
+# slicing (ending index is not inxluded)
+# format : 
+# string[start : end : step]
+
+s = "Python"
+print(s[0:2])    # Py
+print(s[2:])     # thon
+print(s[:3])     # Pyt
+print(s[-3:])    # hon
+
+
+
