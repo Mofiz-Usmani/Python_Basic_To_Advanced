@@ -27,7 +27,10 @@ Conditional statements in Python are used to execute certain blocks of code base
 
 
 newName = "Alex"
-print(newName[0])
+print(newName[0])  
 print(newName[1])
 print(newName[2])
 print(newName[3])
+
+for char in newName:
+    print(char)
