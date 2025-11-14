@@ -52,3 +52,27 @@ print(s[-3:])    # hon
 
 
 
+# len() - for length
+print(len(s))
+
+
+
+#upper(), lower()
+print("cat".upper())  # "CAT"
+print("DOG".lower())  # "dog"
+
+
+
+
+# strip() – removes spaces
+m = "    hi     "
+print(m.strip())
+
+
+
+
+#  replace() - replaces teh value with new
+z = "Hello, Jackal"
+print(z.replace("Jackal", "Python"))
+
+
