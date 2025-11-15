@@ -41,3 +41,13 @@ if num > 0:
 
 
 
+
+
+
+# IF Inside Another IF (Nested IF)
+age = 20
+country = "India"
+
+if age >= 18:
+    if country == "India":
+        print("You can vote in India")
