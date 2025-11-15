@@ -86,3 +86,27 @@ elif(n%2 != 0 and n%5 == 0):
     print("Special Odd")
 else:
     print("Normal Odd")
+
+
+
+
+
+
+
+
+import time
+
+# get current hour (0–23)
+hour = int(time.strftime('%H'))
+
+print("Current Hour:", hour)
+
+if hour >= 5 and hour < 12:
+    print("Good Morning!")
+elif hour >= 12 and hour < 17:
+    print("Good Afternoon!")
+elif hour >= 17 and hour < 21:
+    print("Good Evening!")
+else:
+    print("Good Night!")
+
