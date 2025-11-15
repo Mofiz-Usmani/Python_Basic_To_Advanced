@@ -10,3 +10,10 @@ fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
     print(fruit)
+
+
+
+name = "Jackal"
+
+for char in name: 
+    print(char)
