@@ -1,6 +1,6 @@
-# ===============
+# ==================
 # Strings in Python
-# ===============
+# ==================
 
 # Strings are immutable (cannot change characters inside them)
 name = "Jackal"
