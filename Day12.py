@@ -160,4 +160,20 @@ while i <= 5:
 for i in range(1, 6):
     if i == 3:
         continue
-    print(i)    #prints 1 2 4 5
+    print(i)    #prints 1 2 4 5  Number 3 is skipped.
+
+
+
+
+
+
+
+i = 0
+
+while i < 5:
+    i += 1
+    
+    if i == 2:
+        continue
+    print(i)    #prints 1 3 4 5
+
