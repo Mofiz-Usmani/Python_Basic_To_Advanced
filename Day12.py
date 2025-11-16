@@ -26,12 +26,12 @@ while i <= 5:
 
 
 # Ask user until they enter correct password
-password = ""
+# password = ""
 
-while password != "abc@123":
-    password = input("Enter Password: ")
+# while password != "abc@123":
+#     password = input("Enter Password: ")
 
-print("Access Granted")
+# print("Access Granted")
 
 
 
@@ -42,3 +42,19 @@ print("Access Granted")
 # Infinite Loop (runs forever)
 # while True:
 #     print("This never ends!")
+
+
+
+
+
+
+
+
+
+
+i = int(input("Enter the number: "))
+
+while (i<=10) :
+    i = int(input("Enter the number: "))
+    print(i)
+
