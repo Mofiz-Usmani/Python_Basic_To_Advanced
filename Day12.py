@@ -24,3 +24,13 @@ while password != "abc@123":
     password = input("Enter Password: ")
 
 print("Access Granted")
+
+
+
+
+
+
+
+# Infinite Loop (runs forever)
+# while True:
+#     print("This never ends!")
