@@ -119,7 +119,26 @@ while True:
 # =============================
 
 
+# Break = Stop the loop immediately
+# When Python sees break, it jumps out of the loop (loop ends right there).
+
+
 for i in range(1, 6):
     if i == 3:
         break
     print(i) # prints 1 2
+
+
+
+
+
+
+
+# Example with While Loop
+i = 1
+
+while i <= 5:
+    if i == 4:
+        break
+    print(i)   #prints 1 2 3
+    i += 1
