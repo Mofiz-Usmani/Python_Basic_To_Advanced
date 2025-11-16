@@ -142,3 +142,22 @@ while i <= 5:
         break
     print(i)   #prints 1 2 3
     i += 1
+
+
+
+
+
+
+
+
+# Continue = Skip that iteration & jump to next round of loop
+# It does not stop the loop.
+# It only skips the current step.
+
+
+
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)    #prints 1 2 4 5
