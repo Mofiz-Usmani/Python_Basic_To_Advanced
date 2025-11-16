@@ -98,11 +98,28 @@ while True:
 
 
 # Do While Loop emulation
-i = int(input("Enter the number: "))
-print(i)    
+# i = int(input("Enter the number: "))
+# print(i)    
 
-while (i<=10) :
-    i = int(input("Enter the number: "))
-    print(i)
+# while (i<=10) :
+#     i = int(input("Enter the number: "))
+#     print(i)
 
-print("Done with the loop")
+# print("Done with the loop")
+
+
+
+
+
+
+
+
+# =============================
+# BREAK and CONTINUE in Python
+# =============================
+
+
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i) # prints 1 2
