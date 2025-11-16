@@ -11,6 +11,8 @@
 # ✔ Taking continuous user input
 # ✔ Waiting for something to happen
 
+# No Do While Loop is in python
+
 
 
 
@@ -70,3 +72,22 @@ count = 5
 while (count>=0) :
     print(count)
     count -= 1
+else : 
+    print("Out of Loop")
+
+
+
+
+
+
+
+
+# Print numbers 1 to 5 (do-while style)
+i = 1
+
+while True:
+    print(i)
+    i += 1
+
+    if i > 5:     # condition check at bottom
+        break
