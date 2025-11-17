@@ -304,6 +304,16 @@ print(s.title())    #Output Python Programming
 
 
 
+# TO check if element present in string using (in) keyword
+if "Har" in "Harry":
+    print("YES")
+else: 
+    print("NO")
+
+
+
+
+
 
  
 

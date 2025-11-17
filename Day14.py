@@ -51,7 +51,7 @@ print("Last element:", fruits[len(fruits)-1])
 
 
 
-
+# TO check of element present in list using (in) keyword
 if "apple" in fruits:
     print("YES")
 else : 
