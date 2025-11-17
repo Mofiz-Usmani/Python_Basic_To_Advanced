@@ -32,6 +32,100 @@ add(5, 3)
 
 
 
+# a and b are required arguments
+def average(a, b):   
+    print("The average is : ", (a+b)/2)
+
+average(4,9)
+
+
+# Default Arguments
+def average(a=3, b=8):   
+    print("The average is : ", (a+b)/2)
+
+average()   # if give values while calling it overrites the defult values
+
+
+
+
+
+# Keyword Arguments in Python
+# When you call a function, you normally pass values in order:
+
+def greet(name, age):
+    print(name, age)
+
+greet("Eddie", 20)   # normal way
+
+
+
+# But keyword arguments let you specify the parameter by name, not by order:
+greet(age=20, name="Eddie")
+
+# Why keyword arguments are useful?
+
+# Order doesn’t matter
+# You can pass values in any order.
+
+# More readable
+# You can clearly see what each value is for.
+
+# Example:
+def user_info(name, city, age):
+    print("Name:", name)
+    print("City:", city)
+    print("Age:", age)
+
+user_info(age=21, name="Aman", city="Delhi")
+
+
+
+
+
+
+
+# Variable Length Arguments in Python
+
+# Sometimes you don’t know how many values a user will pass to a function.
+
+# Python allows this using:
+
+# 1️⃣ *args → for unlimited positional arguments 
+# 2️⃣ **kwargs → for unlimited keyword arguments
+
+
+# 1. *args (many values → tuple)  (📌 * → gives you a tuple)
+# Use when you want to pass any number of values.
+
+def add_numbers(*args):
+    print(args)
+
+add_numbers(10, 20, 30, 40)   #Output: (10, 20, 30, 40)
+
+
+
+
+# You can loop:
+def total(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    print("Total: ", sum)
+
+total(5,10, 20, 40, 30, 50)
+
+
+
+
+
+
+# 2. **kwargs (many keyword arguments → dictionary) (📌 ** → gives you a dictionary)
+# Use when you want many key=value pairs.
+
+def user(**kwargs):
+    print(kwargs)
+
+user(name="Aman", age=21, city="Mumbai")
 
 
 
