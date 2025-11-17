@@ -23,3 +23,11 @@ print("Empty list:", my_list)
 # List with elements
 fruits = ["apple", "banana", "cherry"]
 print("Fruits:", fruits)
+
+
+
+
+
+# Mixed data types
+mix = [1, "hello", 3.5, True]
+print("Mixed list:", mix)
