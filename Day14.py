@@ -46,6 +46,7 @@ print("First element:", fruits[0])   # Index 0
 print("Last element:", fruits[-1])   # Negative index
 # or
 print("Last element:", fruits[len(fruits)-1])  
+print("All elements: ", fruits[:])   # Prints all elements
 
 
 
@@ -68,7 +69,7 @@ else :
 # ---------------------
 numbers = [10, 20, 30, 40, 50, 60]
 
-print("All elements: ", numbers[:])
+
 print("First 3 elements:", numbers[:3])
 print("From index 2 to 4:", numbers[2:5])
 print("Every 2nd element:", numbers[::2])
