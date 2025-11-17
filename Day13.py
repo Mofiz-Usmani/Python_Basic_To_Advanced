@@ -90,25 +90,6 @@ print("Multiplication:", z)
 
 
 
-
-
-# ===============================
-# BUILT-IN FUNCTIONS IN PYTHON
-# ===============================
-
-# These are functions that Python already provides.
-# You don’t need to create them — just use them directly.
-
-# Examples:
-# print(), len(), type(), range(), input(), etc.
-
-
-
-
-
-
-
-
 def is_palindrome():
     s = input("Enter a string: ")
     temp = ""
@@ -120,3 +101,17 @@ def is_palindrome():
         print("Not Palindrome")
 
 is_palindrome()
+
+
+
+
+
+# ===============================
+# BUILT-IN FUNCTIONS IN PYTHON
+# ===============================
+
+# These are functions that Python already provides.
+# You don’t need to create them — just use them directly.
+
+# Examples:
+# print(), len(), type(), range(), input(), etc.
