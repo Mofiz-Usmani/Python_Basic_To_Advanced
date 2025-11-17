@@ -51,8 +51,28 @@ print("Last element:", fruits[len(fruits)-1])
 
 
 
-# TO check of element present in list using (in) keyword
+# TO check if element present in list using (in) keyword
 if "apple" in fruits:
     print("YES")
 else : 
     print("NO")
+
+
+
+
+
+
+
+# ---------------------
+# 3. Slicing Lists
+# ---------------------
+numbers = [10, 20, 30, 40, 50, 60]
+
+print("All elements: ", numbers[:])
+print("First 3 elements:", numbers[:3])
+print("From index 2 to 4:", numbers[2:5])
+print("Every 2nd element:", numbers[::2])
+print("Reversed list:", numbers[::-1])
+
+
+
