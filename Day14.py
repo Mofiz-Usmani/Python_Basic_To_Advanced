@@ -78,3 +78,53 @@ print("Jump Index: ", numbers[0:5:2])   #skip one value
 
 
 
+
+
+
+
+
+
+# =====================
+# List Comprehension
+# =====================
+
+# A compact way to create lists.
+
+# Can replace loops and append() calls.
+
+# Format:
+# [expression for item in iterable if condition]
+
+# expression → what you want in the new list
+# item → each element from the iterable
+# condition (optional) → filter elements
+
+
+evens = [i for i in range(10)]
+print(evens)   
+
+
+
+# With Condition (Filter)
+# Only even numbers
+evens = [i for i in range(10) if i % 2 == 0]
+print(evens)   # Output: [0, 2, 4, 6, 8]
+
+
+
+
+
+
+# Simple Example: Create a list of squares
+# Without list comprehension
+squares = []
+for i in range(5):
+    squares.append(i**2)
+print(squares)   # Output: [0, 1, 4, 9, 16]
+
+
+
+
+# With list comprehension
+squares = [i**2 for i in range(5)]
+print(squares)   # Output: [0, 1, 4, 9, 16]
