@@ -204,3 +204,32 @@ b = [4, 5, 6]
 print("Concatenate:", a + b)      # Combine lists
 print("Repeat:", a * 3)           # Repeat list
 print("Check membership:", 2 in a)  # True or False
+
+
+
+
+
+
+
+# Useful List Methods
+
+numbers = [5, 2, 9, 1, 5, 6]
+
+print("Length:", len(numbers))     # Number of elements
+print("Max:", max(numbers))
+print("Min:", min(numbers))
+print("Sum:", sum(numbers))
+
+numbers.sort()                     # Sort ascending
+print("Sorted:", numbers)
+
+numbers.sort(reverse=True)         # Sort descending
+print("Reverse sorted:", numbers)
+
+numbers.reverse()                  # Reverse order
+print("Reversed:", numbers)
+
+print("Index of 5:", numbers.index(5))  # First occurrence
+
+print("Count of 5:", numbers.count(5))  # Number of occurrences
+
