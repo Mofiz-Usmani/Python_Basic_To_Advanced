@@ -190,3 +190,17 @@ print("After del:", fruits)
 
 fruits.clear()               # Remove all elements
 print("After clear:", fruits)
+
+
+
+
+
+
+# List Operations
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+print("Concatenate:", a + b)      # Combine lists
+print("Repeat:", a * 3)           # Repeat list
+print("Check membership:", 2 in a)  # True or False
