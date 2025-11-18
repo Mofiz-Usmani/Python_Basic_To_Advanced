@@ -271,4 +271,24 @@ new_lis.append(99)
 print(lis)       # [1, 2, 3]
 print(new_lis)   # [1, 2, 3, 99]
 
+# Old list did NOT change
+# New list changed
 
+
+
+
+
+
+
+# If you use = (assignment)
+
+lis = [1, 2, 3]
+new_lis = lis
+
+new_lis.append(99)
+
+print(lis)       # [1, 2, 3, 99]  (changed!)
+print(new_lis)   # [1, 2, 3, 99]
+
+
+# Both change because they are pointing to the same object.
