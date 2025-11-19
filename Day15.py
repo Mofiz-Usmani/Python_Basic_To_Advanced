@@ -169,3 +169,4 @@ countries2 = ("Vietnam", "India", "China")
 southAsia = countriess + countries2
 
 print(southAsia)
+print(len(southAsia))
