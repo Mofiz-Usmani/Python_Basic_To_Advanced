@@ -8,6 +8,11 @@
 # 👉 You cannot change it (no adding, removing, updating).
 # 👉 That’s why it's called immutable.
 
+# Why use tuples?
+# ✔ Faster than lists
+# ✔ Use less memory
+# ✔ Good for data that should not change
+
 
 
 # Creating Tuples
@@ -31,6 +36,12 @@ print(type(t))
 
 
 
+
+
+tup = (1,2,3,"HEllo", True)
+
+if True in tup:
+    print("YES")
 
 
 
