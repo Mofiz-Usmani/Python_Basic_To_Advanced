@@ -170,3 +170,25 @@ southAsia = countriess + countries2
 
 print(southAsia)
 print(len(southAsia))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#KBC Question : 
+
+questions = ["Who is known as the “Missile Man of India”?", "Which is the largest planet in our Solar System?", "What is the currency of Japan?",
+"Who wrote the Indian national anthem “Jana Gana Mana”?", "Which river is known as the “Ganga of the South”?"]
+
+answers = ["Dr. A.P.J. Abdul Kalam", "Jupiter", "Yen", "Rabindranath Tagore", "Kaveri River"]
+
+print(answers)
