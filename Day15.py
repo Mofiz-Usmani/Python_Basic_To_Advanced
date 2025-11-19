@@ -190,5 +190,17 @@ questions = ["Who is known as the “Missile Man of India”?", "Which is the la
 "Who wrote the Indian national anthem “Jana Gana Mana”?", "Which river is known as the “Ganga of the South”?"]
 
 answers = ["Dr. A.P.J. Abdul Kalam", "Jupiter", "Yen", "Rabindranath Tagore", "Kaveri River"]
+i = 0
 
-print(answers)
+while True :
+    print("Leta Start the Game!!!")
+    print(questions[i])
+
+    ans = input("Enter the correct answer")
+
+    if (ans == answers[i]) :
+        print("Right Answer")
+        break
+    else : 
+        print("Wrong Answers!!!")
+        break
