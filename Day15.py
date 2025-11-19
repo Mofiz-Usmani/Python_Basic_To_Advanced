@@ -24,3 +24,21 @@ t = (5,)   # comma is important
 
 
 print(type(t))
+
+
+
+
+
+
+
+
+
+
+
+
+# Accessing tuple elements
+# Same like lists, using indexing:
+
+t = ("apple", "banana", "mango")
+print(t[0])   # apple
+print(t[2])   # mango
