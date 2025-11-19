@@ -128,3 +128,27 @@ print(t[2][0])   # 4
 print(t[2][1])   # 4
 print(t[0])      # 1
 print(t[1])      # 2
+
+
+
+
+
+
+
+
+
+# Converting tuple to list (if you want to edit it)
+
+countries = ("Spain", "Italy", "India", "England", "Germany")
+
+temp = list(countries)
+
+temp.append("Russia")
+
+temp.pop(3)
+
+temp[2] = "Finland"
+
+countries = tuple(temp)
+
+print(countries)
