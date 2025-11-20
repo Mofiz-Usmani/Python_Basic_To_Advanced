@@ -344,8 +344,20 @@ print(f"Hello my name is {name} and I am form {country}")  #Better way
 
 
 price = 49.0999
-txt = f"For only {price: .3f} dollars!"
+txt = f"For only {price: .2f} dollars!"
 print(txt)
+
+
+
+num = f"{2 * 30}"    
+print(num)            #So it prints "60" as text.
+
+
+
+print(40*40)   #Python calculates 40 × 40 = 1600 and prints the number.
+
+
+
 
 # Old-style formatting
 print("Hello %s" % name)  # Hello Eddie
