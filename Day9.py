@@ -344,7 +344,7 @@ print(f"Hello my name is {name} and I am form {country}")  #Better way
 
 
 price = 49.0999
-txt = f"For only {price:. 2f} dollars!"
+txt = f"For only {price: .3f} dollars!"
 print(txt)
 
 # Old-style formatting
