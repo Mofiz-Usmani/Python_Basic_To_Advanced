@@ -340,6 +340,9 @@ name = "Jackal"
 print(f"Hello my name is {name} and I am form {country}")  #Better way
 
 
+print(f"Hello my name is {{name}} and I am form {{country}}")  #To print as it is
+
+
 
 
 
