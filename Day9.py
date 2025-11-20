@@ -335,7 +335,9 @@ letter = "Hey my name is {} and I am form {}"
 country = "India"
 name = "Jackal"
 
-print(letter.format(country, name))
+# print(letter.format(country, name)) #complicated way
+
+print(f"Hello my name is {name} and I am form {country}")  #Better way
 
 
 # Old-style formatting
