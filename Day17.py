@@ -138,3 +138,20 @@ print(s)   # {1, 3}
 s = {1, 2}
 s.update([3, 4, 5])
 print(s)   # {1, 2, 3, 4, 5}
+
+
+
+
+
+# discard() - Removes an item from the set
+# ✔️ No error if item not found.
+
+s = {1, 2, 3}
+s.discard(5)   # no error
+s.discard(2)
+print(s)       # {1, 3}
+
+
+
+
+
