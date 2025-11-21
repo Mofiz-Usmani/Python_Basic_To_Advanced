@@ -171,3 +171,22 @@ print(l)
 g = {10,20,30,40}
 g.pop()
 print(g)
+
+
+
+
+
+
+
+
+
+
+# Set Operations
+
+
+# Union → Combine sets (no duplicates)
+
+a = {1, 2}
+b = {2, 3}
+print(a | b)     # {1, 2, 3}
+print(a.union(b))  # {1, 2, 3}
