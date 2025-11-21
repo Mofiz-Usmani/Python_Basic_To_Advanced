@@ -118,3 +118,23 @@ s = {1, 2}
 s.add(3)
 print(s)   # {1, 2, 3}
 
+
+
+
+
+# remove() - Removes an item from the set
+# ⚠️ Gives error if item not found.
+
+s = {1, 2, 3}
+s.remove(2)
+print(s)   # {1, 3}
+
+
+
+
+
+# update() - Adds multiple items to the set
+
+s = {1, 2}
+s.update([3, 4, 5])
+print(s)   # {1, 2, 3, 4, 5}
