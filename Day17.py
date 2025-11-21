@@ -53,4 +53,31 @@ print(s)   # {1, 2, 3, 4}
 # ✔ Allowed items: numbers, strings, tuples
 # ❌ Not allowed: lists, sets, dictionaries
 
-s = {1, 2, [3, 4]}   # ❌ ERROR — list is mutable
+# s = {1, 2, [3, 4]}   # ❌ ERROR — list is mutable
+
+
+
+
+
+
+
+
+# A frozenset is just like a normal set but:
+
+# ❌ You cannot change it
+
+# No add
+
+# No remove
+
+# No update
+
+# ✔ Items are fixed forever → immutable set
+
+fs = frozenset([1, 2, 3, 4])
+print(fs)
+print(type(fs))     #<class 'frozenset'>
+
+
+# fs.add(5)     # ❌ Error
+# fs.remove(2)  # ❌ Error
