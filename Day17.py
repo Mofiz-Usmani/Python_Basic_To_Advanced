@@ -40,3 +40,17 @@ print(s)   # output: {1, 2, 3}
 s = {1, 2, 3}
 s.add(4)
 print(s)   # {1, 2, 3, 4}
+
+
+
+
+
+
+# ❌ But the items inside a set must be IMMUTABLE
+
+# You cannot put a list or another set inside a set because they are changeable.
+
+# ✔ Allowed items: numbers, strings, tuples
+# ❌ Not allowed: lists, sets, dictionaries
+
+s = {1, 2, [3, 4]}   # ❌ ERROR — list is mutable
