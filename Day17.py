@@ -161,3 +161,13 @@ s = {1, 2, 3}
 item = s.pop()
 print(item)  # could be 1, 2, or 3
 print(s)  
+
+
+l = {4,5,6,7}
+l.pop()
+print(l)
+
+
+g = {10,20,30,40}
+g.pop()
+print(g)
