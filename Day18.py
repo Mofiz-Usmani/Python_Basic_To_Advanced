@@ -36,7 +36,9 @@ print(my_dict3)
 
 # Accessing Values
 
-print(my_dict1["name"])  # Accessing value using key
-print(my_dict2.get("age"))  # Accessing value using get() method    
+print(my_dict1["name"])  # Accessing value using key (direct access, raises KeyError if key not found)
+print(my_dict2.get("age"))  # Accessing value using get() method (safe access, returns None if key not found)
 print(my_dict3.get("country", "USA"))  # Using get() with default value if key not found
-print()
+print(my_dict1.keys())  # Getting all keys
+print(my_dict2.values())  # Getting all values
+print(my_dict3.items())  # Getting all key-value pairs as tuples
