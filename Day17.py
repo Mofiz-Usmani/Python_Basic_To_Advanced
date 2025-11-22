@@ -283,3 +283,29 @@ a = {1, 2, 3}
 b = {4, 5, 6}
 
 print(a.isdisjoint(b))   # True (no common elements)
+
+
+
+
+
+
+
+
+
+
+
+
+# isSuperset() Method
+
+# ✔ What it checks?
+# It checks whether a set contains all elements of another set.
+# ✔ Returns:
+# True → if the set is a superset
+# False → if it is NOT a superset
+
+
+a = {1, 2, 3, 4, 5}
+b = {2, 3}
+
+print(a.issuperset(b))   # True (a contains all elements of b)
+print(b.issuperset(a))   # False (b does not contain all elements of a)
