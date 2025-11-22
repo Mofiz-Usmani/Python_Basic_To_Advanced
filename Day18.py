@@ -42,3 +42,7 @@ print(my_dict3.get("country", "USA"))  # Using get() with default value if key n
 print(my_dict1.keys())  # Getting all keys
 print(my_dict2.values())  # Getting all values
 print(my_dict1.items())  # Getting all key-value pairs as tuples
+
+
+for key, value in my_dict1.items():  # Iterating through dictionary
+    print(f"{key}: {value}")
