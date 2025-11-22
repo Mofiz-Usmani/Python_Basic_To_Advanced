@@ -197,6 +197,15 @@ del s
 
 
 
+# clear() - Empties the set
+s = {1, 2, 3}
+s.clear()
+print("Set s : ",s)   # set()
+
+
+
+
+
 
 
 # Set Operations
