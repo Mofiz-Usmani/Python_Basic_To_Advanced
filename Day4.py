@@ -53,7 +53,7 @@ print(i)
 print(type(i)) #Output: <class 'NoneType'>
 
 
-# used to represent complex numbers like 2 + 3j to use in mathematical calculations
+# used to represent complex numbers like 2 + 3j to use in mathematical calculations (immutable)
 j = complex(2, 3)
 print(j)
 print(type(j)) #Output: <class 'complex'>
@@ -67,7 +67,6 @@ print(type(j)) #Output: <class 'complex'>
 # 1️⃣ Mutable Data Types
 
 # Can be changed after creation (you can modify, add, or remove elements).
-
 # Examples:
 
 # list → [1, 2, 3] → you can do list.append(4) or list[0] = 10
@@ -79,7 +78,6 @@ print(type(j)) #Output: <class 'complex'>
 # 2️⃣ Immutable Data Types
 
 # Cannot be changed after creation (any modification creates a new object).
-
 # Examples:
 
 # int → x = 5 → x + 1 creates a new integer; original x stays 5
@@ -91,6 +89,8 @@ print(type(j)) #Output: <class 'complex'>
 # tuple → (1, 2, 3) → cannot change elements
 
 # frozenset → immutable version of a set
+
+# complex → complex numbers like 2 + 3j are immutable
 
 
 
@@ -141,6 +141,9 @@ print(type(x_str))    #Output: <class 'str'>
 # Every thing in Python is an Object
 # =========================================
 
+
+
+# https://chatgpt.com/s/t_6922f8dcd0d88191abcf288a4312ce8a
 # What “Everything is an object” means in Python
 
 # In Python:

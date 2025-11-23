@@ -100,3 +100,23 @@ print(keyword.kwlist)
 
 
 
+
+
+
+
+
+# ===============
+# Questions : 
+# ===============
+
+
+# Take two numbers as input from the user and print their sum, difference,
+# product, and quotient.
+
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+
+print("Sum is : ", int(a) + int(b))
+print("Differnce is : ", int(a) - int(b))
+print("Product is : ", int(a) * int(b))
+print("Quotient is : ", int(a) / int(b))
