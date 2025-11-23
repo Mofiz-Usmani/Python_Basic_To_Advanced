@@ -141,3 +141,44 @@ c = float(input("Enter the third value: "))
 
 average = (a + b + c) / 3
 print(average, type(average))
+
+
+
+
+
+
+
+# Evaluate and print the result of the following expression:
+
+x = 10 + 3 * 2 ** 2
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+# Write a program to swap values of two numbers entered by the user.
+
+a = int(input("Enter number a : "))
+b = int(input("Enter number b : "))
+
+
+print("Before Swap a : ",a)
+print("Before Swap b : ",b)
+
+
+temp = a
+a = b
+b = temp
+
+# a, b = b, a
+
+
+print("After Swap a : ",a)
+print("After Swap b : ",b)
