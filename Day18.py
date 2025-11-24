@@ -68,3 +68,16 @@ student = {
 # keys() - Returns all keys.
 
 print(student.keys())
+
+
+
+# values() - Returns all values.
+
+print(student.values())
+
+
+
+
+# items() - Returns key–value pairs as tuples.
+
+print(student.items())
