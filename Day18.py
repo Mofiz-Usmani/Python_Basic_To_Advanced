@@ -145,3 +145,15 @@ print(student)
 
 new_dict = student.copy()
 print(new_dict)
+
+
+
+
+
+
+# fromkeys() - Creates dictionary with given keys and same value.
+# keys → list/tuple/set of keys
+# value → single value for all keys
+
+a = dict.fromkeys(["a", "b", "c"], 0)
+print(a)
