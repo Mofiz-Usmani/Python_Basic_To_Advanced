@@ -3,6 +3,9 @@
 # ==================
 
 # Strings are immutable (cannot change characters inside them)
+
+
+
 name = "Jackal"
 print(name)
 print(type(name))   # <class 'str'

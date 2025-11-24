@@ -182,3 +182,54 @@ b = temp
 
 print("After Swap a : ",a)
 print("After Swap b : ",b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#  Ask the user for a temperature in Celsius (string input). Convert it to ,
+# then calculate and print temperature in Fahrenheit.
+# Conversion formula: FahrenheitTemp = (CelsiusTemp ∗ (9/5)) +
+# 32
+
+
+celsius = input("Enter a temperature in Celsius : ")
+
+celsiusTemp = int(celsius)
+
+fahrenheitTemp = (celsiusTemp * (9/5)) + 32
+
+print("Temperature in Fahrenheit : ",fahrenheitTemp)
+
+
+
+
+
+
+
+
+
+
+# Take a decimal number as input (like ) and output its:
+# • integer part -
+# • fractional part -
+# 45
+# .78
+
+
+
+num = float(input("Enter a decimal number: "))
+
+integer_part = int(num)
+fractional_part = num - integer_part
+
+print("Integer part:", integer_part)
+print("Fractional part:", fractional_part)
