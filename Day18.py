@@ -166,3 +166,36 @@ a["a"] = 1
 a["b"] = 2
 a["c"] = 3
 print(a)
+
+
+
+
+
+
+
+
+
+# Loop keys:
+
+for k in student:
+    print("Keys : ", k)
+
+
+
+
+
+# Loop values:
+
+for v in student.values():
+    print("Values : ", v)
+
+
+
+
+
+
+
+# Loop key–value:
+
+for k, v in student.items():
+    print("Key : Value - ",k, v)
