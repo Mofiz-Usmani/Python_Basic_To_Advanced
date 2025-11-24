@@ -125,3 +125,23 @@ print(student)
 
 student.popitem()
 print(student)
+
+
+
+
+
+
+# clear() - Removes all items.
+
+# student.clear()
+# print(student)
+
+
+
+
+
+
+# copy() - Creates a copy of dictionary.
+
+new_dict = student.copy()
+print(new_dict)
