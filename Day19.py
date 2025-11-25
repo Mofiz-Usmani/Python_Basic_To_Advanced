@@ -54,3 +54,37 @@ for i in numbers:
         count += 1
 
 print("Missing number:", count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#? Detect Duplicate in a List Check for the first duplicate in a list. 
+#? Print the duplicate and stop. If no duplicates, print "No duplicates" using else.
+
+
+numbers = [1, 3, 5, 3, 7, 5]
+
+seen = set()  # to store numbers we have already seen
+
+for num in numbers:
+    if num in seen:
+        print(f"First duplicate: {num}")
+        break
+    seen.add(num)
+else:
+    print("No duplicates")
