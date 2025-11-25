@@ -26,3 +26,31 @@ for i in range(6):
 
 else : 
     print("Loop Complete")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#? Find Missing Number in a Sequence
+#? You have a list of numbers from 1 to n with one missing. Find the missing number-
+#? using for-else.
+
+
+numbers = [1, 2, 4, 5]
+numbers.sort()  # ensure sorted
+count = 1
+
+for i in numbers:
+    if i == count:
+        count += 1
+
+print("Missing number:", count)
