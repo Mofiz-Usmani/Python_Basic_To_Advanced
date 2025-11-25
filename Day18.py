@@ -147,6 +147,21 @@ print(student)
 
 
 
+#* del - 
+# del is not a method, it is a keyword used to delete:
+
+# a key-value pair
+# the entire dictionary
+
+my_dict4 = {'name': 'Alex', 'age': 24}
+print(my_dict4)
+del my_dict4["age"]
+# del my_dict4
+print(my_dict4)
+
+
+
+
 # copy() - Creates a copy of dictionary.
 
 new_dict = student.copy()

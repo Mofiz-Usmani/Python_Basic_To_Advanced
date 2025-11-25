@@ -42,7 +42,8 @@ for char in newName:
 # ===================
 # String Slicing
 # ===================
-# Format: string[start:end:step] ; end index not included
+#! Format: string[start:end:step] ; end index not included
+
 s = "Python"
 
 print(s[0:2])    # Py
@@ -61,7 +62,8 @@ print(len(s))  # 6
 
 
 
-# Changes done using methods create a new string orignal remains the same
+#!  Changes done using methods create a new string orignal remains the same
+
 v = "Hello"
 k = v.upper()
 print("k : ", k)
@@ -78,7 +80,7 @@ print("DOG".lower())  # dog
 m = "    hi     "
 print(m.strip())  # hi
 f = "!!!!Hello!!!!!!"
-print(f.rstrip("!")) 
+print(f.strip("!")) 
 
 
 # Replace a substring with another (all occurence changes with new)
@@ -109,7 +111,7 @@ print("python".endswith("on"))    # True
 
 str1 = "Welcome to the Console !!!"
 
-# endswith("to", 4, 10) → checks if substring from index 4 to 10 ends with "to"
+#! endswith("to", 4, 10) → checks if substring from index 4 to 10 ends with "to"
 print(str1.endswith("to", 4, 10))
 
 
