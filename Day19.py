@@ -8,5 +8,21 @@
 for i in range(5):
     print(i)
 
-else:
+else:   # means loop ends not breaks
     print("Loop finished without break")
+
+
+
+
+
+
+
+
+for i in range(6):
+    print(i)
+
+    if i == 4:
+        break
+
+else : 
+    print("Loop Complete")
