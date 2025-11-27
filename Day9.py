@@ -54,6 +54,7 @@ print(s[:])      # Python (whole string)
 print(s[0:len(s)-2])  # Pyth
 print(s[-3:-1])  # ho
 print(s[-4:-2])  # th
+print(s[::-1])   # nohtyP
 
 
 # Length of string
@@ -329,11 +330,11 @@ else:
 # ===================
 name = "Eddie"
 
-# f-string (best & modern)
+#! f-string (best & modern)
 print(f"Hello {name}")  # Hello Eddie
 
 
-# format() method
+#! format() method
 print("Hello {}".format(name))  # Hello Eddie
 
 letter = "Hey my name is {} and I am form {}"
