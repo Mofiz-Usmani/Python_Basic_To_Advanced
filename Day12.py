@@ -99,10 +99,15 @@ while True:
 
 # Do While Loop emulation
 
+i = int(input("Enter the number : "))
 
+print(i)
 
+while (i <= 10) :
+    i = int(input("Enter the number : "))
+    print(i)
 
-
+print("Done with the loop")
 
 
 
