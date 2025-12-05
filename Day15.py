@@ -209,3 +209,24 @@ while True :
             price = price + 10000
             print("Correct Answer", "Price Won : ", price)
             i = i + 1
+
+
+
+
+
+
+
+
+
+
+
+# ============
+# Questions
+# ============
+
+
+
+#? Given a tuple of integers, create:
+#? • A tuple of all even numbers
+#? • A tuple of all odd numbers
+
