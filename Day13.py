@@ -129,6 +129,7 @@ user(name="Aman", age=21, city="Mumbai")
 
 
 
+
 # Function with Return Value
 # return sends back a result.
 
@@ -209,3 +210,31 @@ is_palindrome()
 
 # Examples:
 # print(), len(), type(), range(), input(), etc.
+
+
+
+
+
+
+
+
+
+
+
+
+# ===============
+# Questions
+# ===============
+
+
+
+#? Fibonacci Using Recursion
+#? Write a recursive function fibonacci(n) that returns the nth Fibonacci number.
+
+#? Armstrong Number in Range
+#? Write a function find_armstrong_numbers(start, end) that finds all Armstrong
+#? numbers between two given numbers.
+
+
+#? Longest Word in a Sentence
+#? Write a function longest_word(sentence) that returns the longest word in a given string.

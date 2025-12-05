@@ -186,6 +186,48 @@ while n > 0:
 print("Factorial =", fact)
 
 
+
+
+
+
+#? Print Fibonacci series up to n terms
+
+#? Find the largest digit in a number
+
+#? Check Armstrong number (e.g., 153 = 1³+5³+3³)
+
+#? Sum of digits until single digit
+#? Keep adding the digits of a number until only one digit remains.
+#? Example:
+
+#? Input: 9875  
+#? 9+8+7+5 = 29 → 2+9 = 11 → 1+1 = 2  
+#? Output: 2
+
+#? Count number of digits without using len()
+
+#? Print reverse of a number without converting to string
+
+#? Find the product of even digits only
+
+#? Example:
+
+#? Input: 2457  
+#? Even digits = 2, 4 → Product = 8  
+#? Output: 8
+
+
+#? Check if a number is a strong number
+
+#? A strong number is a number whose sum of the factorials of its digits equals the number itself.
+#? Example:
+
+#? 145 → 1! + 4! + 5! = 1 + 24 + 120 = 145  
+#? Output: Strong number
+
+
+
+
 # =============================
 # BREAK and CONTINUE in Python
 # =============================
