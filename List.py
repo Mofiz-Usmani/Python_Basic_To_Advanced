@@ -22,8 +22,7 @@ print("Empty list:", my_list)
 
 # List with elements
 fruits = ["apple", "banana", "cherry"]
-print("Fruits:", fruits)
-
+print(type(fruits), fruits)
 
 
 
@@ -314,3 +313,4 @@ print(new_lis)   # [1, 2, 3, 99]
 #? result = [1, 2, 3, 54, 5, 7]
 
 
+#? Given a list, print all elements that appear more than once in the list.
