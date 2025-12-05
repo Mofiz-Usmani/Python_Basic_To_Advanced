@@ -551,3 +551,26 @@ print(square.__doc__)  #Takes in a number n, returns the square of n
 # If the implementation is easy to explain, it may be a good idea.
 # Namespaces are one honking great idea -- let's do more of those!
 # >>>
+
+
+
+
+
+
+
+
+
+
+
+# ============
+# Questions
+# ============
+
+
+#? Write a program that takes a string from the user and prints the number of
+#? spaces in the string.
+
+
+#? Ask the user for a string and print:
+#? • All unique characters
+#? • The count of unique characters

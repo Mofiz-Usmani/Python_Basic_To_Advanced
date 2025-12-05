@@ -292,3 +292,25 @@ print(new_lis)   # [1, 2, 3, 99]
 
 
 # Both change because they are pointing to the same object.
+
+
+
+
+
+
+
+
+
+# ============
+# Questions
+# ============
+
+
+#? Given a list of integers compute the average of all numbers in the list.
+
+#? Input two lists of integers from the user. Merge them into one list and sort the
+#? result.
+#? Eg - list1 = [1, 2, 7] , list2 = [2, 4, 5]
+#? result = [1, 2, 3, 54, 5, 7]
+
+

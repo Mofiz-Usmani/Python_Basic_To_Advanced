@@ -227,6 +227,10 @@ print("Factorial =", fact)
 
 
 
+#? Ask the user for a string and check whether it is a palindrome or not.
+#? A is a string which is same when we read it forward & backward. Eg - “madam”, “racecar” etc.
+
+
 
 # =============================
 # BREAK and CONTINUE in Python
