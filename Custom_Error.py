@@ -12,6 +12,14 @@
 # ✔ Helps to enforce rules (e.g., age, number ranges)
 
 
+# Keyword	Use:
+
+# raise	        Throw an error
+# Exception	    Base class for all errors
+# try	        Code that may cause error
+# except	    Handle the error
+
+
 
 age = int(input("Enter your age: "))
 
