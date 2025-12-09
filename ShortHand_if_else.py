@@ -43,3 +43,39 @@ marks = 82
 
 grade = "A" if marks >= 90 else "B" if marks >= 75 else "C"
 print(grade)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Multiple Statements in One IF
+x = 10
+
+if x == 10: print("Matched"); print("Correct")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Shorthand If With Math
+n = 5
+
+message = "Even" if n % 2 == 0 else "Odd"
+print(message)
