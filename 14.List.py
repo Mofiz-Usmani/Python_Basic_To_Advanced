@@ -310,7 +310,7 @@ print(new_lis)   # [1, 2, 3, 99]
 #? Input two lists of integers from the user. Merge them into one list and sort the
 #? result.
 #? Eg - list1 = [1, 2, 7] , list2 = [2, 4, 5]
-#? result = [1, 2, 3, 54, 5, 7]
+#? result = [1, 2, 2, 4, 5, 7]
 
 
 #? Given a list, print all elements that appear more than once in the list.
