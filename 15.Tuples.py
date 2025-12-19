@@ -151,7 +151,7 @@ temp[2] = "Finland"
 
 countries = tuple(temp)
 
-print(countries)
+print(countries)   #('Spain', 'Italy', 'Finland', 'Germany', 'Russia')
 
 
 
