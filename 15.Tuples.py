@@ -124,7 +124,7 @@ print(country)
 
 # Nested Tuples
 t = (1, 2, (3, 4))
-print(t[2][0])   # 4
+print(t[2][0])   # 3
 print(t[2][1])   # 4
 print(t[0])      # 1
 print(t[1])      # 2
