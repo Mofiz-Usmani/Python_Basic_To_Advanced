@@ -17,7 +17,6 @@ else:   # means loop ends not breaks
 
 
 
-
 for i in range(6):
     print(i)
 
@@ -26,12 +25,6 @@ for i in range(6):
 
 else : 
     print("Loop Complete")
-
-
-
-
-
-
 
 
 
@@ -54,18 +47,6 @@ for i in numbers:
         count += 1
 
 print("Missing number:", count)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
