@@ -330,12 +330,15 @@ while i < 5:
 #? Design a program to continuously input a number from user & print if it is-
 #? positive or negative until the user enters “Quit”.
 
+
 #? Q2:
 #? Using while, check whether a number is a palindrome.
+
 
 #? Q3:
 #? Write a program using while loop to count how many times a digit appears in a number.
 #? Example: n = 122333, digit = 3 → output: 3
+
 
 #? Q4:
 #? Using while, check whether a number is an Armstrong number.

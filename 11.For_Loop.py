@@ -201,3 +201,24 @@ for i in range(1, n+1):
     sum += i
     
 print(sum)
+
+
+
+
+
+
+
+#? Q1:
+#? Using for, print the Fibonacci series up to N terms.
+
+#? Q2:
+#? Write a program using for loop to find the largest element in a list.
+
+#? Q3:
+#? Write a program using for loop to remove duplicate elements from a list.
+
+#? Q4:
+#? Using for, count frequency of each character in a string.
+
+#? Q5:
+#? Using for, find the second largest number in a list.
