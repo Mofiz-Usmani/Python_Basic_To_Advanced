@@ -67,27 +67,27 @@ student = {
 
 # keys() - Returns all keys.
 
-print(student.keys())
+print(student.keys())  # dict_keys(['name', 'age', 'course'])
 
 
 
 # values() - Returns all values.
 
-print(student.values())
+print(student.values())  # dict_values(['Eddie', 20, 'Python'])
 
 
 
 
 # items() - Returns key–value pairs as tuples.
 
-print(student.items())
+print(student.items())  # dict_items([('name', 'Eddie'), ('age', 20), ('course', 'Python')])
 
 
 
 
 # get(key) - Safely get a value without error.
 
-print(student.get("name"))
+print(student.get("name"))  # Eddie
 
 
 
