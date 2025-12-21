@@ -60,3 +60,24 @@ def fibonacci(n):
 
 # Example: 6th Fibonacci number
 print(fibonacci(6))  # Output: 8
+
+
+
+
+
+
+
+
+# =============
+# Questions
+# =============
+
+
+
+
+#? Q1:
+#? Write a recursive function to reverse a string.
+
+
+#? Q2:
+#? Write a recursive function to find maximum element in a list.
