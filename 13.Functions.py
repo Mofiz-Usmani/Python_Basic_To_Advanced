@@ -227,14 +227,26 @@ is_palindrome()
 # ===============
 
 
-
+#? Q1:
 #? Fibonacci Using Recursion
 #? Write a recursive function fibonacci(n) that returns the nth Fibonacci number.
 
+
+#? Q2:
 #? Armstrong Number in Range
 #? Write a function find_armstrong_numbers(start, end) that finds all Armstrong
 #? numbers between two given numbers.
 
 
+#? Q3:
 #? Longest Word in a Sentence
 #? Write a function longest_word(sentence) that returns the longest word in a given string.
+
+
+#? Q4:
+#? Write a function that takes two integersand and prints all even
+#? numbers between them (inclusive)
+
+
+#? Q5:
+#? Write a function to return the count the number of digits in a number n
