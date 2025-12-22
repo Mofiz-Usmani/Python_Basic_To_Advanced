@@ -578,7 +578,9 @@ print(square.__doc__)  #Takes in a number n, returns the square of n
 
 
 #? Q3:
-#? Write a program to check whether a string is a palindrome.
+#? Ask the user for a string and check whether it is a palindrome or not.
+#? A is a string which is same when we read it forward & backward. Eg -
+#? “madam”, “racecar” etc.
 
 
 #? Q4: 
@@ -588,3 +590,8 @@ print(square.__doc__)  #Takes in a number n, returns the square of n
 
 #? Q5:
 #? Using Python, remove all spaces from a string without using replace().
+
+
+#? Q6:
+#? Write a program that takes a string from the user and prints the number of
+#? spaces in the string.
